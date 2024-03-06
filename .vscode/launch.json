@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TamsApiGatewayApplication",
+      "request": "launch",
+      "mainClass": "io.fullstackbasics.tamsapigateway.TamsApiGatewayApplication",
+      "projectName": "tams-api-gateway"
+    },
+    {
+      "type": "java",
+      "name": "TalentRequestServiceApplication",
+      "request": "launch",
+      "mainClass": "io.fullstackbasics.talentrequestservice.TalentRequestServiceApplication",
+      "projectName": "talent-request-service"
+    },
+    {
+      "type": "java",
+      "name": "TalentFullfillmentServiceApplication",
+      "request": "launch",
+      "mainClass": "io.fullstackbasics.talentfullfillmentservice.TalentFullfillmentServiceApplication",
+      "projectName": "talent-fullfillment-service"
+    },
+    {
+      "type": "java",
+      "name": "TamsDiscoveryServiceApplication",
+      "request": "launch",
+      "mainClass": "io.fullstackbasics.tamsdiscoveryservice.TamsDiscoveryServiceApplication",
+      "projectName": "tams-discovery-service"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-CareerPortalServiceApplication<career-portal-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "io.fullstackbasics.careerportalservice.CareerPortalServiceApplication",
+      "projectName": "career-portal-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
